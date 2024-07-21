@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+#priceCard {
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    margin: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#topSection {
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+#topSection h2 {
+    color: #2ab2af;
+    margin-bottom: 20px;
+}
+
+#topSection h4 {
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#topSection p {
+    color: #98a6bd;
+}
+
+#bottomSection {
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+#bottomLeft {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: #2ab2af;
+    padding: 25px;
+}
+
+#bottomLeft h4 {
+    margin-bottom: 15px;
+}
+
+#priceContainer {
+    margin-bottom: 10px;
+}
+
+#priceFrequency, #price {
+    display: inline-block;
+}
+
+#priceFrequency {
+    position: relative;
+    bottom: 3px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+#bottomLeft p {
+    font-size: 0.9rem;
+}
+
+#bottomRight {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: #4abebc;
+    padding: 25px;
+}
+
+#bottomRight ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    opacity: 0.7;
+}
+
+button {
+    color: white;
+    background-color: #c0df34;
+    font-family: 'Karla';
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 7px 5px 26px -2px rgba(0,0,0,0.20);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #A9C42D;
+    color: rgba(255,255,255,0.7);
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.8rem;
+}   
