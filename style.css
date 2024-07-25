@@ -42,16 +42,14 @@ h2, h4, p {
 }
 
 #bottomSection {
+    display: flex;
     width: 100%;
     height: 55%;
     color: white;
 }
 
 #bottomLeft {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    height: 100%;
+    flex-basis: 50%;
     background-color: #2ab2af;
     padding: 25px;
 }
@@ -62,15 +60,11 @@ h2, h4, p {
 
 #priceContainer {
     margin-bottom: 10px;
-}
-
-#priceFrequency, #price {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 #priceFrequency {
-    position: relative;
-    bottom: 3px;
     font-size: 0.9rem;
     opacity: 0.6;
     margin-left: 5px;
@@ -81,10 +75,7 @@ h2, h4, p {
 }
 
 #bottomRight {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    height: 100%;
+    flex-basis: 50%;
     background-color: #4abebc;
     padding: 25px;
 }
@@ -124,6 +115,10 @@ button:hover {
     #priceCard {
         height: auto;
         width: auto;
+    }
+
+    #bottomSection {
+        flex-direction: column;
     }
 
     #bottomLeft, #bottomRight {
